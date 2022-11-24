@@ -1,0 +1,95 @@
+.contenedor-inicio {
+    text-align: center;
+    line-height: 2em;
+    font-size: small;
+    margin-top: 1.25em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+
+    & p::first-letter {
+        font-size: large;
+    }
+
+}
+
+
+
+.secciones {
+    & img {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    & {
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.overlay {
+    transition: all 0.3s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+    & a {
+        font-size: 15px;
+        margin-bottom: 0;
+
+    }
+
+}
+
+.sociales {
+    position: relative;
+    margin: 1rem;
+
+    &:hover img {
+        opacity: 0.3;
+    }
+
+    &:hover .overlay {
+        opacity: 1;
+    }
+}
+
+.institucionales {
+    position: relative;
+    margin: 1rem;
+
+    &:hover img {
+        opacity: 0.3;
+    }
+
+    &:hover .overlay {
+        opacity: 1;
+    }
+}
+
+
+
+
+.wrapper {
+    size: .2rem;
+
+    &:hover {
+        font-size: 2em;
+        transition: 0.5s;
+
+    }
+
+
+}
+
+.row {
+    justify-content: center;
+}

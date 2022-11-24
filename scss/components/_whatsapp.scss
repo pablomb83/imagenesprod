@@ -1,0 +1,23 @@
+.logo-whatsapp {
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+
+    &:hover {
+
+        font-size: 2em;
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        position: fixed;
+        bottom: 82px;
+        right: 20px;
+        transition: 0.5s;
+
+    }
+
+}

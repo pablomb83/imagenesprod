@@ -1,0 +1,15 @@
+.contenedor-institucionales {
+    text-align: center;
+    line-height: 2em;
+    font-size: small;
+    margin-top: 1.25em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+
+    & p::first-letter {
+        font-size: large;
+    }
+    
+}
+
